@@ -370,7 +370,7 @@ Generally, use the following, to provide responsive web design:
 
 ### Deliverables
 
-*   Recommendations based on user research and modern best practices
+*   A redesigned home page and site map page based on the present document's recommendations.
 
 *   Clean link test results.
 
@@ -378,4 +378,4 @@ Generally, use the following, to provide responsive web design:
 
 *   Fairly good results for Google's mobile-friendliness test.
 
-*   An update of the present document with significantly improved assessment of issues, including fixing all the specific issues reported.
+*   An update of the present document with significantly improved assessment of issues, including fixing the specific issues reported.
