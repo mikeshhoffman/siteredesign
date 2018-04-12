@@ -22,11 +22,11 @@ This is a proposal for the responsive redesign of <http://floridaenergy.ufl.edu>
 
 *   Tune the website for its various audiences, including research universities, students, industry, and government energy agencies.
 
-*   Responsive, modern redesign of civic website
+*   Responsive, modern redesign of this civic website.
 
-*   Add interactivity with Javascript libraries
+*   Add interactivity with Javascript libraries.
 
-*   Build visualizations of public data from web API
+*   Build visualizations of public data from a web API.
 
 
 ### General objectives of the website
@@ -98,15 +98,11 @@ Usability factors to assess:
 -->
 
 
-### Testing whether the site works without JavaScript support
-
-*   <http://www.wikihow.com/Disable-JavaScript>
-
+<!--
 Browser/OS compatibility: 
 *   <https://www.browserling.com>
 Chrome dev console device options
-
-
+-->
 
 <!--HTML200 deck 9  -  testing responsivity, becoming responsive-->
 
@@ -266,6 +262,11 @@ All visited pages loaded correctly. More testing is needed.
 All forms at the site need to be tested, such as the newsletter form at <http://floridaenergy.ufl.edu/contact-us/>.
 
 
+### Testing whether the site works without JavaScript support
+
+*   Recommendation: Test whether the site works without JavaScript support; see <http://www.wikihow.com/Disable-JavaScript>.
+
+
 ### Ease of use (is it pleasant to use?
 
 
@@ -275,7 +276,7 @@ In the Free Online Courses page (<http://floridaenergy.ufl.edu/energy-education/
 
 *   Recommendation: Add cell padding.
 
-The FESC logo appears twice in home page: upper left and lower right.
+In the home page, the FESC logo appears twice: in the upper left and lower right.
 
 *   Recommendation: Remove the lower right logo.
 
@@ -369,12 +370,12 @@ Generally, use the following, to provide responsive web design:
 
 ### Deliverables
 
-Recommendations based on user research and modern best practices
+*   Recommendations based on user research and modern best practices
 
-Clean link test results.
+*   Clean link test results.
 
-Clean HTML validation results.
+*   Clean HTML validation results.
 
-Fairly good results for Google's mobile-friendliness test.
+*   Fairly good results for Google's mobile-friendliness test.
 
-An update of the present document with significantly improved assessment of issues, including fixing all the specific issues reported.
+*   An update of the present document with significantly improved assessment of issues, including fixing all the specific issues reported.
