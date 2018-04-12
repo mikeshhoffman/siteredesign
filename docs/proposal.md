@@ -267,7 +267,7 @@ All forms at the site need to be tested, such as the newsletter form at <http://
 *   Recommendation: Test whether the site works without JavaScript support; see <http://www.wikihow.com/Disable-JavaScript>.
 
 
-### Ease of use (is it pleasant to use?
+### Ease of use (is it pleasant to use?)
 
 
 #### Styling
