@@ -60,10 +60,6 @@ Redesign the website so that the website better helps the Florida Energy Systems
 
 Evaluation of current site's accessibility:
 
-accessibility:
-*   <http://a11yproject.com/checklist.html>
-*   <https://www.w3.org/WAI/intro/accessibility.php>
-
 The demonstrations page (<http://floridaenergy.ufl.edu/energy-education/demonstrations/>) doesn't use semantic HTML.
 
 *   Recommendation: Use semantic HTML, such as header, article, nav, and footer HTML elements.
@@ -73,6 +69,11 @@ The page "Demonstrations" (<http://floridaenergy.ufl.edu/energy-education/demons
 *   Recommendation: Use consistent, clean alt text on all images.
 
 
+<!--
+*   <http://a11yproject.com/checklist.html>
+*   <https://www.w3.org/WAI/intro/accessibility.php>
+-->
+
 <!--html100 deck 6, UX slides-->
 <!--
 *   Discoverability 
@@ -81,7 +82,6 @@ The page "Demonstrations" (<http://floridaenergy.ufl.edu/energy-education/demons
 *   Consistency
 *   Delight
 -->
-
 
 <!--
 todo: html100 deck 7 describes how to define user stories.
@@ -98,28 +98,13 @@ Usability factors to assess:
 -->
 
 
-
-
 ### Testing whether the site works without JavaScript support
 
 *   <http://www.wikihow.com/Disable-JavaScript>
 
-
-
-
 Browser/OS compatibility: 
 *   <https://www.browserling.com>
 Chrome dev console device options
-
-
-Currently a variety of purposes on home page; mobile-first redesign for a smaller screen might force clearer prioritization of content.
-
-
-*  Flexible grid-based layout using relative sizing
-
-*  Media queries to provide different CSS based on device properties such as viewport width and breakpoints
-
-*  Dynamic resizing of images and video, and optimizing the images for load time
 
 
 
@@ -150,9 +135,9 @@ Results:
 
 <!--responsiveness-->
 
-The home page layout is too heavyweight for mobile - <http://floridaenergy.ufl.edu/fl-energy-industry/>.
+The home page layout is too heavyweight for mobile, and there are a variety of purposes on home page.
 
-*   Recommendation: Use a streamlined, mobile-first primary design, keeping the central content that is unique for each page, but remove some elements from the top, bottom (12 universities' logos), and left.
+*   Recommendation: Use a streamlined, mobile-first primary design. Keep the central content that is unique for each page, but remove some elements from the top, bottom (12 universities' logos), and left. Use a mobile-first redesign for a smaller screen, to force clearer prioritization of content.
 
 The site is non-responsive; when the viewport is narrow, images are cut off; text eg <http://floridaenergy.ufl.edu/about/> is cut off when narrower than 2/3 of 1058 px.
 
@@ -162,8 +147,7 @@ On all pages, the top navigation bar items are concatenated together at some vie
 
 *   Recommendation: Use a flexible grid layout with breakpoints.
 
-In the "Energy Education/ Energy Jobs" page (<http://floridaenergy.ufl.edu/energy-education/>), 
-the right side of the text is cut off when the viewport is narrower than 1236px.
+In the "Energy Education/ Energy Jobs" page (<http://floridaenergy.ufl.edu/energy-education/>), the right side of the text is cut off when the viewport is narrower than 1236px.
 
 *   Recommendation: Use a flexible grid layout with breakpoints.
 
@@ -247,7 +231,7 @@ The copyright year is outdated ("Copyright © 2008-2015"), at the bottom of ever
 
 The HTML validator <https://validator.w3.org> found 34 errors and 25 warnings, for the home page.
 
-*   Recommendation: Fix the errors and some warnings.
+*   Recommendation: Fix the HTML validation errors and most of the warnings.
 
 
 #### CSS validation
@@ -373,6 +357,14 @@ Based on the expected users, it is most important that the site work with the fo
 ## Recommendations
 
 Recommendations are placed throughout the present document after each issue; find "Recommendation".
+
+Generally, use the following, to provide responsive web design:
+
+*  Flexible grid-based layout using relative sizing
+
+*  Media queries to provide different CSS based on device properties such as viewport width and breakpoints
+
+*  Dynamic resizing of images and video, and optimizing the images for load time
 
 
 ### Deliverables
