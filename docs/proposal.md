@@ -178,7 +178,7 @@ There are likely opportunities to reduce bandwidth needed for image and JavaScri
 *   JS: 22% of requests, 45% of bytes
 
 
-### Performance measured at pingdom.com
+#### Performance measured at pingdom.com
 
 <https://tools.pingdom.com>
 
