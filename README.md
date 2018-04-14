@@ -1,11 +1,13 @@
-# siteredesign - HTML300 Week1 project
+# Site Redesign multi-week project for UW HTML300 class
 
-## Week1 Assignment
+## Week 1 Assignment: Write proposal for site redesign
 
 From <https://canvas.uw.edu/courses/1188625/assignments/4210866>
 
 This is the first assignment of our larger course project. 
 You will put together a proposal for the responsive redesign of <http://floridaenergy.ufl.edu>.
+
+Done.  Proposal: <https://github.com/mikeshhoffman/siteredesign/blob/master/docs/proposal.md>
 
 This proposal should include: 
 
@@ -38,3 +40,38 @@ Grading:
 *   Created an Asana project for redesign, and detailed ticket for this task/assigment -- 2 points
 *   Proposal includes evaluation of current site's responsiveness, performance, and accessibility -- 3 points
 *   Proposal includes recommendations based on user research and modern best practices -- 3 points
+
+
+## Week 2 Assignment: Initial reimplementation of top-level pages
+
+From <https://canvas.uw.edu/courses/1188625/assignments/4210867?module_item_id=8367432>
+
+*   Decide which pages of http://floridaenergy.ufl.edu/ you want to rebuild. One should be the homepage, the others should be pages that are available from the top level navigation (like http://floridaenergy.ufl.edu/energy-education/ or http://floridaenergy.ufl.edu/public-outreach/). 
+
+Chosen pages: Home, Public Outreach, Site Map.
+
+*   Create html files in your final project repo, one for each page you'll build. Homepage should be named index.html. Each file needs a valid structure. Start building out the content in the body, as you see fit.
+
+Initial stub pages uploaded/published: <https://mikeshhoffman.github.io/siteredesign/>
+
+*   Add meta tags for rich social media sharing to the head of each file.
+
+TBD
+
+*   Publish the site to Github Pages. I know, it's not very impressive yet, but we want to get the live URL.
+
+Already published stubs; re-push.
+
+*   Using that live URL, generate share button for at least one social media platform (Twitter, Facebook, or Tumblr). Insert the button in the body of index.html. It's ok if it's sort of randomly placed right now. After you build out the structure of the page more completely, you can move it. We just want it generated now so it's ready.
+
+TBD
+
+*   Submit a link to the live site for this assignment.
+
+Will submit: <https://mikeshhoffman.github.io/siteredesign/>
+
+Grading:
+*   3 valid HTML files added to project repo     	 2
+*   All necessary social media meta tags in head of each HTML file  	 3
+*   At least one social media share button generated and used correctly  	 3
+*   Some page content built out	 2
