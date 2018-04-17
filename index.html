@@ -4,13 +4,70 @@
   <title>FESC</title>
   <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <!-- facebook tags -->
+  <meta property="og:title" content="Florida Energy Systems Consortium (FESC)">
+  <meta property="og:description" content="Promotes collaboration among energy experts at Florida universities, for an environmentally compatible, sustainable, and efficient energy strategy">
+  <meta property="og:image" content="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png">
+  <meta property="og:image:width" content="521">
+  <meta property="og:image:height" content="184">
+  <meta property="og:url" content="https://mikeshhoffman.github.io/siteredesign/">
+  <meta property="og:type" content="website">
+
+  <!-- twitter tags -->
+  <meta name="twitter:title" content="Florida Energy Systems Consortium (FESC)">
+  <meta name="twitter:description" content="Promotes collaboration among energy experts at Florida universities, for an environmentally compatible, sustainable, and efficient energy strategy">
+  <meta name="twitter:image" content="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/header_logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- twitter script -->
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));
+  </script>
 </head>
 <body>
-  <h1>Florida Energy Systems Consortium (FESC)</h1>
   
-  <a href="index.html">Home</a> | 
-  <a href="public-outreach.html">Outreach</a> | 
-  <a href="sitemap.html">Site Map</a> 
+  <!-- facebook script -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>  
 
+  <header>
+    <nav>
+      <a href="index.html">Home</a> | 
+      <a href="public-outreach.html">Outreach</a> | 
+      <a href="sitemap.html">Site Map</a> 
+    </nav>
+  </header>
+  
+  <aside>
+  </aside>
+  
+  <article>
+    <h1>Florida Energy Systems Consortium (FESC)</h1>
+  </article>
+  
+  <footer>
+  </footer>
 </body>
 </html>
