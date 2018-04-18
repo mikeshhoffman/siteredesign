@@ -1,0 +1,32 @@
+    * {
+      /* Eliminate browser-specific margin and padding default values: */
+      margin: 0;
+      padding: 0;
+      /* Make margin and padding width/height sizes more straightforward than content-box: */
+      box-sizing: border-box;
+    }
+
+header {
+  background-color: red;
+}
+
+nav {
+  background-color: blue;
+}
+
+footer {
+  background-color: green;
+}
+
+article {
+  background-color: purple;
+}
+
+aside {
+  background-color: yellow;
+}
+
+section {
+  background-color: orange;
+}
+

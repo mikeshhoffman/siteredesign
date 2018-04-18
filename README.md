@@ -46,6 +46,8 @@ Grading:
 
 From <https://canvas.uw.edu/courses/1188625/assignments/4210867?module_item_id=8367432>
 
+*   Create an Asana ticket for this week's assignment.
+
 *   Decide which pages of http://floridaenergy.ufl.edu/ you want to rebuild. One should be the homepage, the others should be pages that are available from the top level navigation (like http://floridaenergy.ufl.edu/energy-education/ or http://floridaenergy.ufl.edu/public-outreach/). 
 
 Chosen pages: Home, Public Outreach, Site Map.
@@ -56,11 +58,11 @@ Initial stub pages uploaded/published: <https://mikeshhoffman.github.io/siterede
 
 *   Add meta tags for rich social media sharing to the head of each file.
 
-TBD
+Done.
 
 *   Publish the site to Github Pages. I know, it's not very impressive yet, but we want to get the live URL.
 
-Already published stubs; re-push.
+Done.
 
 *   Using that live URL, generate share button for at least one social media platform (Twitter, Facebook, or Tumblr). Insert the button in the body of index.html. It's ok if it's sort of randomly placed right now. After you build out the structure of the page more completely, you can move it. We just want it generated now so it's ready.
 
