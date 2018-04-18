@@ -7,26 +7,30 @@
     }
 
 header {
-  background-color: red;
+  background-color: lightcoral;
 }
 
 nav {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 footer {
-  background-color: green;
+  background-color: lightgreen;
 }
 
 article {
-  background-color: purple;
+  background-color: lightgoldenrodyellow;
 }
 
 aside {
-  background-color: yellow;
+  background-color: lightgray;
 }
 
 section {
-  background-color: orange;
+  background-color: paleturquoise;
+}
+
+h1 {
+  
 }
 
