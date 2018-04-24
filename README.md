@@ -77,3 +77,43 @@ Grading:
 *   All necessary social media meta tags in head of each HTML file  	 3
 *   At least one social media share button generated and used correctly  	 3
 *   Some page content built out	 2
+
+
+## Week 3 Assignment: Design Plan, Finish Base HTML
+
+From <https://canvas.uw.edu/courses/1188625/assignments/4210869>
+
+Planning: 
+
+*   Create an Asana ticket for this week's assignment.
+
+URL: https://app.asana.com/0/622197888656195/646572170293771
+
+*   Plan your site’s design: colors.
+
+*   Plan your site’s design: typography.
+
+*   Plan your site’s design: layout.
+
+*   Plan what design components you’ll need.
+    Some design components will be on every page, such as navigation and footer.
+    Some design components will be a reused design but with different contents, like an article or form.
+
+*   Come up with a visual design plan for each module, and overall pages (combinations of modules). 
+
+*   In the "docs" folder of your repo, add a file with a writeup of your design plan (.pdf or MarkDown format).
+    Your design plan can include notes on colors, typography, layout, and modules needed. 
+    Include (in that file or as their own files) screenshots of at least 4 website designs you find inspiring.
+    Include any other supporting documents that will help you in styling (mocks and sketches are great, but not required).
+
+*   No need to write CSS yet.
+    Focus your energy on thoughtfully planning your design.
+    You'll build your design next week.
+    
+    
+Coding:
+
+*   Finish up the site's base HTML, with the new modular designs in mind.
+    As you style, the HTML may change, but the HTML should be functional, valid, and as complete as possible after this assignment.
+    
+    
