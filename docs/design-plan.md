@@ -120,28 +120,28 @@ Change the forms design from __ to __.
 ## Screenshots of Inspiring Website Designs
 
 ### Site: HBO Series
-![HBO Series](docs/hboseries.png "HBO Series")
+![HBO Series](hboseries.png "HBO Series")
 
 [HBO Series](https://www.hbo.com/series) /(https://www.hbo.com/series)
 
 
 ### Site: Apple iPad
 
-![Apple iPad](docs/Apple-iPadSite.png "Apple iPad")
+![Apple iPad](Apple-iPadSite.png "Apple iPad")
 
 [Apple iPad](https://www.apple.com/ipad/) /(https://www.apple.com/ipad/)
 
 
 ### Site: Site Name
 
-![The STUDIO](docs/thestudio.png "The STUDIO")
+![The STUDIO](thestudio.png "The STUDIO")
 
 [The STUDIO](http://www.the-studio.co.il/) /(http://www.the-studio.co.il/)
 
 
 ### Site: Site Name
 
-![Amptone.com](docs/Amptone-com.png "Amptone.com")
+![Amptone.com](Amptone-com.png "Amptone.com")
 
 [Amptone.com](http://amptone.com) /(http://amptone.com)
 
