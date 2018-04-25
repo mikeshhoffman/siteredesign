@@ -14,7 +14,6 @@ body {
 }
 
 header {
-/*  background-color: coral;*/
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -35,14 +34,6 @@ article {
   padding-left: 1rem;
 }
 
-aside {
-/*  background-color: lightgray;*/
-}
-
-section {
-/*  background-color: paleturquoise;*/
-}
-
 footer {
   background-color: #6FA2FF;
   padding-top: 1rem;
@@ -61,6 +52,12 @@ h2 {
   margin-top: 1.3rem;
   margin-bottom: 0.9rem;
   font-size: 125%;
+}
+
+h3 {
+  margin-top: 1.3rem;
+  margin-bottom: 0.9rem;
+  font-size: 105%;
 }
 
 p {
