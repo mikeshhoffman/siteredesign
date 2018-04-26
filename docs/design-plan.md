@@ -1,6 +1,6 @@
 # Design Plan for Redesigned Site
 
-The overall spirit of the redesign is to do the opposite of the exiting site: instead, err on the side of simple plan low-key design, like the good HBO GO site where a peer commented "What design? There's only content."
+The overall spirit of the redesign is to do the opposite of the exiting site: instead, err on the side of simple plan low-key design.
 
 As a tentative starting point, start with the least design possible, the most simple and generic -- as a corrective to the current site's complex design.
 
@@ -71,7 +71,7 @@ First, list the main pages, which will be in the Nav Bar:
 *   Links
 *   Sitemap
 
-A high-level linked outline could go here, listing only the following, top-level items (the parent groups of links).
+A high-level linked outline will go here, listing only the following, top-level items (the parent groups of links).
 
 Below the Nav Bar sitemap links, place all the parent (top-level) groups of links:
 *   FESC Conferences
@@ -90,64 +90,74 @@ Below the Nav Bar sitemap links, place all the parent (top-level) groups of link
 *   Annual Reports, Publications, and Presentations
 
 
-## Design-Components: Footer (on every page)
+## Design-components Needed
 
-The Footer at the bottom of every page will contain social media sharing buttons and copyright notice.
+*   Header, containing the top Nav Bar.
 
-Omit the universities' logos from the bottom of every page; they can move into a dedicated page.
+*   Article; the main, central part of each webpage, containing varying content.
 
+*   Forms, such as "Sign up for the FESC Florida Energy Connections Newsletter" form.
 
-## Reused Design-Components with Varying Content: Articles
+*   Left and right sides.
 
-Change the article area design from __ to __.
-
-
-## Reused Design-Components with Varying Content: Forms
-
-Change the forms design from __ to __.
+*   Footer (on every page).
 
 
 <!--=========================================================-->
 # Visual Design Plan
 
 
-## Visual Design Plan for Each Module
+## Visual Design Plan for Each Module/Design-component
+
+*   Header, containing the top Nav Bar: pale blue-purple (#6FA2FF).
+
+*   Nav Bar at top: pale blue-purple (#6FA2FF).
+
+*   Article; the main, central part of each webpage, containing varying content.
+    Colors: light goldenrod yellow.
+
+*   Forms, such as the newsletter signup form.
+    Use Bootstrap default form elements, to highlight any forms by showing more tangible demarcation of form elements.
+
+*   Left and right sides: not columns with content, but margins of whitespace.
+    Left and right padding for the top-of-page Nav Bar and Footer: pale blue-purple (#6FA2FF).
+    Padding for the Article area: light goldenrod yellow.
+
+*   The Footer at the bottom of every page will contain social media sharing buttons and copyright notice.
+    Omit the universities' logos from the bottom of every page; they can move into a dedicated page.
+    Colors: pale blue-purple (#6FA2FF).
 
 
 ## Visual Design Plan for Each Page (Combinations of Modules)
 
 
+# Screenshots of Inspiring Website Designs
 
-## Screenshots of Inspiring Website Designs
-
-
-### Site: HBO Series
+## Site: HBO Series
 ![HBO Series](hboseries.png "HBO Series")
 
-[HBO Series](https://www.hbo.com/series) (<https://www.hbo.com/series>)
+[HBO Series](https://www.hbo.com/series) (<https://www.hbo.com/series>) - A peer commented "What design? I only noticed content."
 
 
-### Site: Apple iPad
+## Site: Apple iPad
 
 ![Apple iPad](Apple-iPadSite.png "Apple iPad")
 
-[Apple iPad](https://www.apple.com/ipad/) (<https://www.apple.com/ipad/>)
+[Apple iPad](https://www.apple.com/ipad/) (<https://www.apple.com/ipad/>) - Puts the focus on the product image within ample white space.
 
 
-### Site: The STUDIO
+## Site: The STUDIO
 
 ![The STUDIO](thestudio.png "The STUDIO")
 
-[The STUDIO](http://www.the-studio.co.il/) (<http://www.the-studio.co.il/>)
+[The STUDIO](http://www.the-studio.co.il/) (<http://www.the-studio.co.il/>) - Progressively reveals navigation and then content.
 
 
-### Site: Amptone.com
+## Site: Amptone.com
 
 ![Amptone.com](Amptone-com.png "Amptone.com")
 
-[Amptone.com](http://amptone.com) (<http://amptone.com>)
+[Amptone.com](http://amptone.com) (<http://amptone.com>) - A sitemap-based Home page design, for a site with a large amount of content.
 
 
-
-## Other Supporting Documents for Styling (Mocks and Sketches Optional)
-
+<!--## Other Supporting Documents for Styling (Mocks and Sketches Optional)-->
