@@ -130,6 +130,20 @@ Below the Nav Bar sitemap links, place all the parent (top-level) groups of link
 
 ## Visual Design Plan for Each Page (Combinations of Modules)
 
+### Visual design plan for the Home page
+
+White background, Nav Bar at top, Footer at bottom, and the main content placed in the central, Article area, describing the FESC organization and purpose.
+
+
+### Visual design plan for the Public Outreach page
+
+Same visual design as the Home page, but with different, public outreach content in the central, Article area.
+
+
+### Visual design plan for the Site Map page
+
+Same visual design as the Home page, but with different, Site Map content in the central, Article area.
+
 
 # Screenshots of Inspiring Website Designs
 
