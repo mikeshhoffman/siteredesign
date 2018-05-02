@@ -13,16 +13,15 @@ body {
   font-size: 117%; }
 
 header {
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
-
-nav {
-  background-color: #6FA2FF;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 0;
-  font-size: 110%; }
+  padding-top: 1rem; }
+  header nav {
+    background-color: #6FA2FF;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 2rem;
+    border-bottom: 0;
+    font-size: 110%; }
 
 article {
   border-top: 0;
@@ -71,6 +70,7 @@ li.level1 {
 
 img {
   display: block;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */

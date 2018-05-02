@@ -26,15 +26,15 @@ body {
 // Sass nesting
 header {
   padding-top: 1rem;
-  padding-bottom: 1rem;
-}
   nav {
     background-color: $brand;
     text-align: center;
     @include vertical-padding(1rem);
+    border-top: 2rem;
     border-bottom: 0;
     font-size: 110%;
   }
+}
 
 article {
   border-top: 0;
@@ -84,7 +84,7 @@ li {
   line-height: 100%;
 }
 
-// Sass nesting issue: Nesting the following rule into the above rule and removing the "li" prefix breaks the formatting (removes leading in Site Map outline):
+// Sass nesting attempt 2: issue: Nesting the following rule into the above rule and removing the "li" prefix breaks the formatting (removes leading in Site Map outline):
 li.level1 {
   padding-top: 1.2rem;
   font-weight: bold;
@@ -93,4 +93,5 @@ li.level1 {
 img {
   display: block;
   margin: auto;
+  padding-bottom: 1rem;
 }
