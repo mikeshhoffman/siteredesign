@@ -3,74 +3,94 @@
   margin: 0;
   padding: 0;
   /* Make margin and padding width/height sizes more straightforward than content-box: */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+// Sass mixins
+@mixin vertical-padding($vertical-space){
+    padding-top: $vertical-space;
+    padding-bottom: $vertical-space;
+}
+
+// Sass variables
+$brand: #6FA2FF;
+$article-background: lightgoldenrodyellow;
 
 body {
   font-family: 'Zilla Slab', "Times New Roman", Times, serif;
   width: 90%;
   margin: auto;
-  font-size: 117%; }
+  font-size: 117%;
+}
 
+// Sass nesting
 header {
   padding-top: 1rem;
-  padding-bottom: 1rem; }
-
-nav {
-  background-color: #6FA2FF;
-  text-align: center;
-  padding-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 0;
-  font-size: 110%; }
+}
+  nav {
+    background-color: $brand;
+    text-align: center;
+    @include vertical-padding(1rem);
+    border-bottom: 0;
+    font-size: 110%;
+  }
 
 article {
   border-top: 0;
-  background-color: lightgoldenrodyellow;
+  background-color: $article-background;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 1.7rem;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+}
 
 footer {
-  background-color: #6FA2FF;
+  background-color: $brand;
   padding-top: 1rem;
   padding-bottom: 0.2rem;
   text-align: center;
-  font-size: 90%; }
+  font-size: 90%;
+}
 
 h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 150%; }
+  font-size: 150%;
+}
 
 h2 {
   margin-top: 1.3rem;
   margin-bottom: 0.9rem;
-  font-size: 125%; }
+  font-size: 125%;
+}
 
 h3 {
   margin-top: 1.3rem;
   margin-bottom: 0.9rem;
-  font-size: 105%; }
+  font-size: 105%;
+}
 
 p {
   margin-top: 0.6rem;
-  margin-bottom: 0.6rem; }
+  margin-bottom: 0.6rem;
+}
 
 li {
   margin-left: 1.2rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-weight: normal;
-  line-height: 100%; }
+  line-height: 100%;
+}
 
+// Sass nesting issue: Nesting the following rule into the above rule and removing the "li" prefix breaks the formatting (removes leading in Site Map outline):
 li.level1 {
   padding-top: 1.2rem;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 img {
   display: block;
-  margin: auto; }
-
-/*# sourceMappingURL=styles.css.map */
+  margin: auto;
+}

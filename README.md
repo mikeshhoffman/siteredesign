@@ -117,3 +117,22 @@ Coding:
     As you style, the HTML may change, but the HTML should be functional, valid, and as complete as possible after this assignment.
     
     
+## Week 4 Assignment: 
+
+From <https://canvas.uw.edu/courses/1188625/assignments/4210870>
+    
+Continue the FESC Redesign Project.
+
+Start coding the styles you planned in the previous assignment.
+Write Sass, use Koala to compile it to CSS.
+
+Commit and push all of the files (.scss, .css, .css.map) to Github so they can be reviewed.
+
+You'll have time next week to finish styling, but try to get it about 75% done this week.
+
+Use at least 2 Sass features (variables, mixins, nesting).
+
+Grading:
+*   Write functional, valid Sass: 4
+*   Use at least 2 Sass features (variables, mixins, nesting): 3
+*   Style of live site is visibly improved: 1
