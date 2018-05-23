@@ -136,3 +136,68 @@ Grading:
 *   Write functional, valid Sass: 4
 *   Use at least 2 Sass features (variables, mixins, nesting): 3
 *   Style of live site is visibly improved: 1
+
+
+## Week 7 Assignment: Google Charts
+
+Add two charts to redesign project, using the data provided in the .txt files.
+
+These charts can be added to an existing page in your site where they would make sense, or you can add a new page (/data maybe?) to hold the charts.
+If you add an additional page, it should share basic design with the rest of the site, e.g. header, nav, footer.
+  
+Select the chart type you feel best suits data. Use at least 3 configuration options to customize charts' appearances.
+
+
+### Chart of annual renewable energy production in Florida
+
+Add a chart that shows *annual renewable energy production in Florida*.
+"renewable-energy-production-florida.txt"
+
+That provided text file contains two columns: the year, like a key; and the BTU count, a value:
+
+Year,Billion Btu
+2015,234192
+2014,226863
+2013,229666
+...
+1962,35826
+1961,34417
+1960,35680
+
+The data is from <https://www.eia.gov/opendata/qb.php?sdid=SEDS.REPRB.FL.A>.
+
+
+### Chart of annual total electricity consumption in Florida
+
+Add a chart that shows *annual total electricity consumption in Florida*.
+"electricity-total-consumption-florida.txt"
+
+That provided text file contains two columns: the year, like a key; and the BTU count, a value:
+
+Year,Billion Btu
+2016,804283
+2015,803865
+2014,771379
+...
+1962,71216
+1961,62705
+1960,57344
+
+The data is from <https://www.eia.gov/opendata/qb.php?sdid=SEDS.ESTCB.FL.A>.
+
+
+### Charting Library Used
+
+I used the Google Charts charting library: https://developers.google.com/chart/
+
+
+I used the Line Chart type for both charts, because there are around 57 data points -- too many data points for a bar chart.
+I want to see an even plotted graph line like stock values.
+
+<https://developers.google.com/chart/interactive/docs/gallery/linechart>
+
+
+
+
+
+
