@@ -188,16 +188,9 @@ The data is from <https://www.eia.gov/opendata/qb.php?sdid=SEDS.ESTCB.FL.A>.
 
 ### Charting Library Used
 
-I used the Google Charts charting library: https://developers.google.com/chart/
-
+I used the Google Charts charting library: <https://developers.google.com/chart/>
 
 I used the Line Chart type for both charts, because there are around 57 data points -- too many data points for a bar chart.
-I want to see an even plotted graph line like stock values.
+I want to see an even, plotted graph line like stock values.
 
 <https://developers.google.com/chart/interactive/docs/gallery/linechart>
-
-
-
-
-
-
