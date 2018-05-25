@@ -155,6 +155,7 @@ Add a chart that shows *annual renewable energy production in Florida*.
 
 That provided text file contains two columns: the year, like a key; and the BTU count, a value:
 
+```
 Year,Billion Btu
 2015,234192
 2014,226863
@@ -163,6 +164,7 @@ Year,Billion Btu
 1962,35826
 1961,34417
 1960,35680
+```
 
 The data is from <https://www.eia.gov/opendata/qb.php?sdid=SEDS.REPRB.FL.A>.
 
@@ -174,6 +176,7 @@ Add a chart that shows *annual total electricity consumption in Florida*.
 
 That provided text file contains two columns: the year, like a key; and the BTU count, a value:
 
+```
 Year,Billion Btu
 2016,804283
 2015,803865
@@ -182,6 +185,7 @@ Year,Billion Btu
 1962,71216
 1961,62705
 1960,57344
+```
 
 The data is from <https://www.eia.gov/opendata/qb.php?sdid=SEDS.ESTCB.FL.A>.
 
