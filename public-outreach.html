@@ -74,7 +74,7 @@
           src="images/header_logo_orig.png"
           alt="logo for Florida Energy Systems Consortium (FESC)">
     <div id="about-app">
-      <app-nav text="FESC Home Page"></app-nav>
+      <app-nav text="Public Outreach"></app-nav>
     </div>
 <!--
     <nav>
@@ -129,19 +129,29 @@
     </p>
   </article>
   
-  <footer>
+<!-- Footer commented out because tentatively converted to a Vue component -->
+<!--  <footer>-->
     <!-- facebook sharing button, generated at https://developers.facebook.com/docs/plugins/share-button -->
+<!--
     <div class="fb-share-button" data-href="https://mikeshhoffman.github.io/siteredesign/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmikeshhoffman.github.io%2Fsiteredesign%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
     
+-->
     <!-- twitter sharing button -->
+<!--
     <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=energy%20research">Tweet</a>
 
     <p>
       Copyright &copy; 2008-2018 Florida Energy Systems Consortium. All Rights Reserved.
     </p>
   </footer>
+-->
 
-  <!-- Vue code for this page -->
-  <script src="public-outreach.js"></script>
+  <div id="footer-app">
+    <app-footer text="Public Outreach"></app-nav>
+  </div>
+
+  <!-- Vue script -->
+  <!--  <script src="public-outreach.js"></script>-->
+  <script src="components.js"></script>
 </body>
 </html>

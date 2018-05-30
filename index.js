@@ -1,4 +1,4 @@
-var aboutApp = new Vue({
-  el: '#about-app',
-  data: {  }
-})
+//var aboutApp = new Vue({
+//  el: '#about-app',
+//  data: {  }
+//})
