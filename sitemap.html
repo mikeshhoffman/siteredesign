@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <title>Site Map for FESC</title>
-  <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Zilla%20Slab">
 
@@ -44,6 +43,11 @@
     return t;
     }(document, "script", "twitter-wjs"));
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="components.js"></script>
+
+  <script src="script.js"></script>
 </head>
 <body>
 
@@ -67,11 +71,16 @@
                  (min-width: 1601px) 1200px"
           src="images/header_logo_orig.png"
           alt="logo for Florida Energy Systems Consortium (FESC)">
+    <div id="about-app">
+      <app-nav text="FESC Home Page"></app-nav>
+    </div>
+<!--
     <nav>
       <a href="index.html">Home</a> | 
       <a href="public-outreach.html">Outreach</a> | 
       <a href="sitemap.html">Site Map</a> 
     </nav>
+-->
   </header>  
 
   <article>
@@ -642,5 +651,7 @@
     </p>
   </footer>
 
+  <!-- Vue code for this page -->
+  <script src="sitemap.js"></script>
 </body>
 </html>

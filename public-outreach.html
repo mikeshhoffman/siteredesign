@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <title>Public Outreach</title>
-  <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Zilla%20Slab">
 
@@ -44,9 +43,15 @@
     return t;
   }(document, "script", "twitter-wjs"));
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="components.js"></script>
+
+  <script src="script.js"></script>
 </head>
 <body>
   
+  <!-- Vue component: Facebook button -->
   <!-- facebook sharing-button script -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -58,6 +63,7 @@
   }(document, 'script', 'facebook-jssdk'));
   </script>  
 
+  <!-- Vue component: header -->
   <header>
     <img srcset="images/fesc_header_logo_tall.png 400w, 
                  images/fesc_header_logo_tall.png 800w, 
@@ -67,11 +73,16 @@
                  (min-width: 1601px) 1200px"
           src="images/header_logo_orig.png"
           alt="logo for Florida Energy Systems Consortium (FESC)">
+    <div id="about-app">
+      <app-nav text="FESC Home Page"></app-nav>
+    </div>
+<!--
     <nav>
       <a href="index.html">Home</a> | 
       <a href="public-outreach.html">Outreach</a> | 
       <a href="sitemap.html">Site Map</a> 
     </nav>
+-->
   </header>  
   
   <article>
@@ -130,5 +141,7 @@
     </p>
   </footer>
 
+  <!-- Vue code for this page -->
+  <script src="public-outreach.js"></script>
 </body>
 </html>

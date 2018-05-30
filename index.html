@@ -15,7 +15,6 @@
   <title>FESC</title>
   <!--Load the Google Charts API:-->
   <script src="https://www.gstatic.com/charts/loader.js"></script>
-  <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Zilla%20Slab">
 
@@ -57,9 +56,13 @@
     return t;
   }(document, "script", "twitter-wjs"));
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="components.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
-  
+
   <!-- facebook sharing-button script, generated at https://developers.facebook.com/docs/plugins/share-button -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -70,7 +73,13 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   </script>  
-  
+
+  <!-- Vue component: header -->
+<!--
+  <div id="about-app">
+    <app-header text="FESC Home Page"></app-header>
+  </div>
+-->
   <header>
     <img srcset="images/fesc_header_logo_tall.png 400w, 
                  images/fesc_header_logo_tall.png 800w, 
@@ -80,11 +89,16 @@
                  (min-width: 1601px) 1200px"
           src="images/header_logo_orig.png"
           alt="logo for Florida Energy Systems Consortium (FESC)">
+  <div id="about-app">
+    <app-nav text="FESC Home Page"></app-nav>
+  </div>
+<!--
     <nav>
       <a href="index.html">Home</a> | 
       <a href="public-outreach.html">Outreach</a> | 
       <a href="sitemap.html">Site Map</a> 
     </nav>
+-->
   </header>  
 
   <article>
@@ -111,5 +125,8 @@
       Copyright &copy; 2008-2018 Florida Energy Systems Consortium. All Rights Reserved.
     </p>
   </footer>
+
+  <!-- Vue code for this page -->
+  <script src="index.js"></script>
 </body>
 </html>
