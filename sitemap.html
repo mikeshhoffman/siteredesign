@@ -63,6 +63,9 @@ window.twttr = (function(d, s, id) {
   </script>  
 
   <header>
+    
+<!-- Logo commented out because converted to a Vue component -->
+<!--
     <img srcset="images/fesc_header_logo_tall.png 400w, 
                  images/fesc_header_logo_tall.png 800w, 
                  images/fesc_header_logo_tall.png 1280w"
@@ -71,9 +74,12 @@ window.twttr = (function(d, s, id) {
                  (min-width: 1601px) 1200px"
           src="images/header_logo_orig.png"
           alt="logo for Florida Energy Systems Consortium (FESC)">
-    <div id="about-app">
-      <app-nav text="Site Map"></app-nav>
+-->
+    <div id="vue-logo-div">
+      <vue-logo-elem></vue-logo-elem>
     </div>
+    
+<!-- Navbar commented out because converted to a Vue component -->
 <!--
     <nav>
       <a href="index.html">Home</a> | 
@@ -81,6 +87,10 @@ window.twttr = (function(d, s, id) {
       <a href="sitemap.html">Site Map</a> 
     </nav>
 -->
+    <div id="vue-navbar-div">
+      <vue-navbar-elem></vue-navbar-elem>
+    </div>
+    
   </header>  
 
   <article>
@@ -639,7 +649,7 @@ window.twttr = (function(d, s, id) {
 
   </article>
 
-<!-- Footer commented out because tentatively converted to a Vue component -->
+<!-- Footer commented out because converted to a Vue component -->
 <!--  <footer>-->
     <!-- facebook sharing button, generated at https://developers.facebook.com/docs/plugins/share-button -->
 <!--
@@ -655,9 +665,8 @@ window.twttr = (function(d, s, id) {
     </p>
   </footer>
 -->
-
-  <div id="footer-app">
-    <app-footer text="Site Map"></app-nav>
+  <div id="vue-footer-div">
+    <vue-footer-elem></vue-footer-elem>
   </div>
 
   <!-- Vue script -->
