@@ -56,11 +56,6 @@ function drawRenewProd(freshData) {
     pointsVisible: true,
     pointSize: 3,
     reverseCategories: true,
-//    chartArea: {width: '50%'},
-//    hAxis: {
-//      title: 'BTUs',
-//      minValue: 0
-//    }
   };
 
   var chart = new google.visualization.LineChart(document.getElementById('renewableBtusChart'));
